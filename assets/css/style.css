@@ -3,7 +3,6 @@
     padding: 23px;
     position: fixed;
     top: 0;
-    float: left;
     margin-left: 120px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
@@ -14,13 +13,14 @@
 .container {
     background-color:#dddddd;
     padding: 30px;
-    position: fixed;
-    top: 0;
-    right: 0;
     text-align: right;
     width: 100%;
     z-index: 1;
     padding-right: 123px;
+}
+
+.topnav {
+    padding-right: 150px;
 }
 
 a {
@@ -28,28 +28,35 @@ a {
 }
 
 body {
-    background: url(../images/circles-light.png) no-repeat fixed;
+    background: url(../images/circles-lightcopy2.png) no-repeat fixed;
     background-repeat: repeat;
 }
 
 .box {
-    background-color:#ffffff;
-    height: 460px;
-    margin: 120px;
+    background-color: #ffffff;
+    margin: 50px 100px;
     padding: 50px;
+    border: 2px solid rgb(185, 185, 185);
+}
+
+.img-responsive {
+    height: 260px;
+    width: 335px;
 }
 
 .box2 {
-    background-color:#ffffff;
-    height: 825px;
-    margin: 120px;
+    background-color: #ffffff;
+    margin: 50px 100px;
     padding: 50px;
+    border: 2px solid rgb(185, 185, 185);
+    height: 800px;
 }
 
 .box3 {
-    background-color:#ffffff;
-    margin: 120px;
+    background-color: #ffffff;
+    margin: 50px 100px;
     padding: 50px;
+    border: 2px solid rgb(185, 185, 185);
 }
 
 #form {
@@ -57,12 +64,12 @@ body {
 }
 
 textarea {
-    width: 930px;
+    width: 850px;
     height: 300px;
 }
 
 input[type=text] {
-    width: 930px;
+    width: 850px;
 }
 
 input[type=submit] {
@@ -79,14 +86,9 @@ h2 {
     margin-bottom: 10px;
 }
 
-hr {
-    color:#dddddd;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
 p {
     line-height: 1.4;
+    text-align: justify;
 }
 
 img {
@@ -101,6 +103,7 @@ img {
     height: 220px;
     margin-right: 10%;
     margin-bottom: 5%;
+    float: left;
 }
 
 .caption1 {
@@ -112,8 +115,15 @@ img {
     left: 0px;
     color:#dddddd;
     background-color:#4aaaa5;
-    padding: 15px 144px;
-    margin-top: 164px;
+    margin: auto;
+    margin-top: 150px;
+    padding: 20px 144px;
+}
+
+#img2 {
+    width: 350px;
+    height: 220px;
+    margin-bottom: 5%;
 }
 
 .caption2 {
@@ -125,8 +135,17 @@ img {
     right: 158px;
     color:#dddddd;
     background-color:#4aaaa5;
-    padding: 15px 139px;
-    margin-top: 164px;
+    margin: auto;
+    margin-top: 150px;
+    margin-left: 500px;
+    padding: 20px 144px;
+}
+
+#img3 {
+    width: 350px;
+    height: 220px;
+    margin-right: 10%;
+    margin-block-end: 5%;
 }
 
 .caption3 {
@@ -138,8 +157,15 @@ img {
     right: 605px;
     color:#dddddd;
     background-color:#4aaaa5;
-    padding: 15px 134px;
-    margin-top: 430px;
+    margin: auto;
+    margin-top: 415px;
+    padding: 20px 130px;
+}
+
+#img4 {
+    width: 350px;
+    height: 220px;
+    margin-bottom: 5%;
 }
 
 .caption4 {
@@ -151,8 +177,14 @@ img {
     right: 158px;
     color:#dddddd;
     background-color:#4aaaa5;
-    padding: 15px 110px;
-    margin-top: 430px;
+    margin: auto;
+    margin-top: 415px;
+    padding: 20px 140px;
+}
+
+#img5 {
+    width: 350px;
+    height: 220px;
 }
 
 .caption5 {
@@ -164,32 +196,9 @@ img {
     right: 605px;
     color:#dddddd;
     background-color:#4aaaa5;
-    padding: 15px 109px;
-    margin-top: 695px;
-}
-
-#img2 {
-    width: 350px;
-    height: 220px;
-    margin-bottom: 5%;
-}
-
-#img3 {
-    width: 350px;
-    height: 220px;
-    margin-right: 10%;
-    margin-block-end: 5%;
-}
-
-#img4 {
-    width: 350px;
-    height: 220px;
-    margin-bottom: 5%;
-}
-
-#img5 {
-    width: 350px;
-    height: 220px;
+    margin: auto;
+    margin-top: 700px;
+    padding: 20px 140px;
 }
 
 .paragraph {
@@ -204,15 +213,15 @@ footer {
     color:#dddddd;
     padding: 20px;
     width: 100%;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    border-top-color: #4aaaa5;
-    border-top-width: 10px;
+    border-top: 5px solid #4aaaa5;
 }
 
 .clearfix:after {
     content: "";
     display: block;
     clear: both;
+}
+
+@media screen and (max-width: 600px) {
+
 }

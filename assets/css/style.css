@@ -267,6 +267,26 @@ footer {
         padding: 7px;
         width: 17%;
     }
+
+    .caption1 span {
+        margin-top: 150px;
+    }
+
+    .caption2 span {
+        margin-top: 395px;
+    }
+
+    .caption3 span {
+        margin-top: 638px;
+    }
+
+    .caption4 span {
+        margin-top: 880px;
+    }
+
+    .caption5 span {
+        margin-top: 1125px;
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -315,5 +335,25 @@ footer {
         color:#dddddd;
         padding: 7px;
         width: 17%;
+    }
+
+    .caption2 span {
+        margin-top: 380px;
+        padding: 15px 156px;
+    }
+
+    .caption3 span {
+        margin-top: 620px;
+        padding: 15px 155.5px;
+    }
+
+    .caption4 span {
+        margin-top: 845px;
+        padding: 12px 150px;
+    }
+
+    .caption5 span {
+        margin-top: 1080px;
+        padding: 12px 149px;
     }
 }

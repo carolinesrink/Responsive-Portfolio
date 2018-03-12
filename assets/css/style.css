@@ -104,6 +104,7 @@ img {
     margin-right: 10%;
     margin-bottom: 5%;
     float: left;
+    overflow: auto;
 }
 
 .caption1 {
@@ -124,6 +125,7 @@ img {
     width: 350px;
     height: 220px;
     margin-bottom: 5%;
+    overflow: auto;
 }
 
 .caption2 {
@@ -132,13 +134,12 @@ img {
 
 .caption2 span {
     position: absolute;
-    right: 158px;
+    left: 0px;
     color:#dddddd;
     background-color:#4aaaa5;
     margin: auto;
-    margin-top: 150px;
-    margin-left: 500px;
-    padding: 20px 144px;
+    margin-top: 400px;
+    padding: 20px 138.5px;
 }
 
 #img3 {
@@ -146,6 +147,7 @@ img {
     height: 220px;
     margin-right: 10%;
     margin-bottom: 5%;
+    overflow: auto;
 }
 
 .caption3 {
@@ -154,18 +156,19 @@ img {
 
 .caption3 span {
     position: absolute;
-    right: 605px;
+    left: 0px;
     color:#dddddd;
     background-color:#4aaaa5;
     margin: auto;
-    margin-top: 415px;
-    padding: 20px 130px;
+    margin-top: 655px;
+    padding: 20px 134.5px;
 }
 
 #img4 {
     width: 350px;
     height: 220px;
     margin-bottom: 5%;
+    overflow: auto;
 }
 
 .caption4 {
@@ -174,17 +177,18 @@ img {
 
 .caption4 span {
     position: absolute;
-    right: 158px;
+    left: 0px;
     color:#dddddd;
     background-color:#4aaaa5;
     margin: auto;
-    margin-top: 415px;
-    padding: 20px 140px;
+    margin-top: 910px;
+    padding: 20px 109.5px;
 }
 
 #img5 {
     width: 350px;
     height: 220px;
+    overflow: auto;
 }
 
 .caption5 {
@@ -193,12 +197,12 @@ img {
 
 .caption5 span {
     position: absolute;
-    right: 605px;
+    left: 0px;
     color:#dddddd;
     background-color:#4aaaa5;
     margin: auto;
-    margin-top: 700px;
-    padding: 20px 140px;
+    margin-top: 1165px;
+    padding: 20px 109.5px;
 }
 
 .paragraph {
